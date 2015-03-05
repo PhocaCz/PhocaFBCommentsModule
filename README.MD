@@ -1,0 +1,1 @@
+Phoca FB Comments Module is Joomla! CMS extension. Module which displays FB comments and like button.
