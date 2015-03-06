@@ -1,0 +1,53 @@
+#phoca-facebook-comments {
+	position:relative;
+}
+/* Twitter */
+#phoca-facebook-comments .pfbct {
+	float: left;
+	width: 98px;
+	padding: 2px;
+}
+/* PlusOne */
+#phoca-facebook-comments .pfbcp {
+	float: left;
+	width: 64px;
+	padding: 2px;
+}
+/* FB Send */
+#phoca-facebook-comments .pfbcs {
+	float: left;
+	width: 55px;
+	padding: 2px;
+}
+/* FB Like */
+#phoca-facebook-comments .pfbcl {
+	clear:both;
+	position:relative;
+	display:block;
+	padding: 2px;
+	text-align:left;
+}
+/* FB Comments */
+#phoca-facebook-comments .pfbcc {
+	float: left;
+	width: 498px;
+	clear:both;
+	padding: 2px;
+}
+/* LinkedIn */
+#phoca-facebook-comments .pfbci {
+	float: left;
+	width: 96px;
+	padding: 2px;
+}
+
+/* MySpace */
+#phoca-facebook-comments .pfbcm {
+	float: left;
+	width: 64px;
+	padding: 2px;
+}
+
+#phoca-facebook-comments .cb {
+	clear:both;
+}
