@@ -1,0 +1,16 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaFBCommentsModule",
+	"extensionName": "Phoca Facebook Comments Module",
+	"projectInitials" : "PM",				  
+	"description": "Phoca Facebook Comments Module is a Joomla! module which displays Facebook comments on Joomla! site. Users are able to comment the site on which this module is displayed.",
+	"projectUrl": "https://www.phoca.cz/phoca-facebook-comments-module",
+	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/62-phoca-facebook-comments-module",
+	"projectDemo" : {
+		"Joomla! Demo": "https://www.phoca.cz/news/30-phoca-news/428-phoca-facebook-comments-module-100-beta-released"
+	},
+	"projectColor": "#c14641"
+}

@@ -1,0 +1,16 @@
+label {}
+
+hr {
+	border: 1px solid #cce6ff;
+}
+
+.ph-options-head {
+	color: #fff;
+	padding: 1.3em 1em;
+	font-size: 130%;
+	margin: 2em 0 1em 0;
+	border-radius: 3px;
+	/*background: linear-gradient(to right, rgba(81,226,195,1) 0%,rgba(131,188,253,1) 100%);*/
+	background: linear-gradient(to right, rgba(153,195,216,1) 0%,rgba(217,237,247,1) 100%);
+	/*border-bottom: 3px solid rgba(153,195,216,1);*/
+}

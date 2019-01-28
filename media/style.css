@@ -4,13 +4,13 @@
 /* Twitter */
 #phoca-facebook-comments .pfbct {
 	float: left;
-	width: 98px;
+	width: 66px;
 	padding: 2px;
 }
 /* PlusOne */
 #phoca-facebook-comments .pfbcp {
 	float: left;
-	width: 64px;
+	width: 40px;
 	padding: 2px;
 }
 /* FB Send */
@@ -29,8 +29,8 @@
 }
 /* FB Comments */
 #phoca-facebook-comments .pfbcc {
-	float: left;
-	width: 498px;
+	/*float: left;
+	width: 498px;*/
 	clear:both;
 	padding: 2px;
 }

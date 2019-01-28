@@ -15,46 +15,38 @@ jimport('joomla.form.formfield');
 class JFormFieldPhocaHead extends JFormField
 {
 	protected $type = 'PhocaHead';
-	
+
+	/*
 	protected function getInput() {
-		return '';
+        return '';
 	}
-	
+
 	protected function getLabel() {
-	
+
 		// Temporary solution
-		JHTML::stylesheet( 'modules/mod_phoca_facebook_comments/assets/options.css' );
-		
-		echo '<div class="clr"></div>';
-		
-		$phocaImage	= ( (string)$this->element['phocaimage'] ? $this->element['phocaimage'] : '' );
-		
-		$image 		= '';
-		$style		= 'background: #CCE6FF; color: #0069CC;padding:5px;margin:5px 0;';
-		
-		if ($phocaImage != ''){
-			$image 	= JHTML::_('image', 'administrator/components/com_phocagallery/assets/images/'. $phocaImage, '' );
-		}
-		
+		JHTML::stylesheet( 'media/mod_phoca_facebook_comments/options.css' );
+
 		if ($this->element['default']) {
-		
-			if ($image != '') {
-				return '<div style="'.$style.'">'
-				.'<table border="0"><tr>'
-				.'<td valign="middle" align="center">'. $image.'</td>'
-				.'<td valign="middle" align="center">'
-				.'<strong>'. JText::_($this->element['default']) . '</strong></td>'
-				.'</tr></table>'
-				.'</div>';
-			} else {
-				return '<div style="'.$style.'">'
+
+				return '<div class="tab-header ph-options-head">'
 				.'<strong>'. JText::_($this->element['default']) . '</strong>'
 				.'</div>';
-			}
+
 		} else {
 			return parent::getLabel();
 		}
-		echo '<div class="clr"></div>';
+        echo '<div style="clear:both;"></div>';
 	}
+	*/
+
+	public function renderField($options = array()) {
+
+        JHTML::stylesheet( 'media/mod_phoca_facebook_comments/options.css' );
+
+	    return '<div class="ph-options-head">'
+            .'<strong>'. JText::_($this->element['default']) . '</strong>'
+            .'</div>';
+    }
+
 }
 ?>
